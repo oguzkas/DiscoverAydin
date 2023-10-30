@@ -1,0 +1,405 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3668B16B2ADB380F007EE789 /* DiscoverAydinApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3668B16A2ADB380F007EE789 /* DiscoverAydinApp.swift */; };
+		3668B16D2ADB380F007EE789 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3668B16C2ADB380F007EE789 /* ContentView.swift */; };
+		3668B16F2ADB3810007EE789 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3668B16E2ADB3810007EE789 /* Assets.xcassets */; };
+		3668B1722ADB3810007EE789 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3668B1712ADB3810007EE789 /* Preview Assets.xcassets */; };
+		3668B1792ADB3A14007EE789 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3668B1782ADB3A14007EE789 /* CircleImage.swift */; };
+		3668B17B2ADB3A83007EE789 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3668B17A2ADB3A83007EE789 /* MapView.swift */; };
+		3668B17D2ADB423C007EE789 /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = 3668B17C2ADB423C007EE789 /* landmarkData.json */; };
+		3668B17F2ADB4257007EE789 /* LandMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3668B17E2ADB4257007EE789 /* LandMark.swift */; };
+		3668B1812ADB4370007EE789 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3668B1802ADB4370007EE789 /* ModelData.swift */; };
+		3668B1862ADB440F007EE789 /* LandMarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3668B1852ADB440F007EE789 /* LandMarkRow.swift */; };
+		3668B1882ADB44C5007EE789 /* LandMarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3668B1872ADB44C5007EE789 /* LandMarkList.swift */; };
+		3668B18A2ADB4550007EE789 /* LandMarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3668B1892ADB4550007EE789 /* LandMarkDetail.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3668B1672ADB380F007EE789 /* DiscoverAydin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiscoverAydin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3668B16A2ADB380F007EE789 /* DiscoverAydinApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverAydinApp.swift; sourceTree = "<group>"; };
+		3668B16C2ADB380F007EE789 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3668B16E2ADB3810007EE789 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3668B1712ADB3810007EE789 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3668B1782ADB3A14007EE789 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		3668B17A2ADB3A83007EE789 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		3668B17C2ADB423C007EE789 /* landmarkData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = landmarkData.json; sourceTree = "<group>"; };
+		3668B17E2ADB4257007EE789 /* LandMark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandMark.swift; sourceTree = "<group>"; };
+		3668B1802ADB4370007EE789 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		3668B1852ADB440F007EE789 /* LandMarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandMarkRow.swift; sourceTree = SOURCE_ROOT; };
+		3668B1872ADB44C5007EE789 /* LandMarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandMarkList.swift; sourceTree = "<group>"; };
+		3668B1892ADB4550007EE789 /* LandMarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandMarkDetail.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3668B1642ADB380F007EE789 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3668B15E2ADB380F007EE789 = {
+			isa = PBXGroup;
+			children = (
+				3668B1692ADB380F007EE789 /* DiscoverAydin */,
+				3668B1682ADB380F007EE789 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3668B1682ADB380F007EE789 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3668B1672ADB380F007EE789 /* DiscoverAydin.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3668B1692ADB380F007EE789 /* DiscoverAydin */ = {
+			isa = PBXGroup;
+			children = (
+				3668B16E2ADB3810007EE789 /* Assets.xcassets */,
+				3668B16A2ADB380F007EE789 /* DiscoverAydinApp.swift */,
+				3668B1842ADB43D0007EE789 /* Model */,
+				3668B1832ADB43C1007EE789 /* Views */,
+				3668B1822ADB43BA007EE789 /* Resouces */,
+				3668B1702ADB3810007EE789 /* Preview Content */,
+			);
+			path = DiscoverAydin;
+			sourceTree = "<group>";
+		};
+		3668B1702ADB3810007EE789 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3668B1712ADB3810007EE789 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3668B1822ADB43BA007EE789 /* Resouces */ = {
+			isa = PBXGroup;
+			children = (
+				3668B17C2ADB423C007EE789 /* landmarkData.json */,
+			);
+			path = Resouces;
+			sourceTree = "<group>";
+		};
+		3668B1832ADB43C1007EE789 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3668B1852ADB440F007EE789 /* LandMarkRow.swift */,
+				3668B17A2ADB3A83007EE789 /* MapView.swift */,
+				3668B1782ADB3A14007EE789 /* CircleImage.swift */,
+				3668B16C2ADB380F007EE789 /* ContentView.swift */,
+				3668B1872ADB44C5007EE789 /* LandMarkList.swift */,
+				3668B1892ADB4550007EE789 /* LandMarkDetail.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3668B1842ADB43D0007EE789 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3668B1802ADB4370007EE789 /* ModelData.swift */,
+				3668B17E2ADB4257007EE789 /* LandMark.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3668B1662ADB380F007EE789 /* DiscoverAydin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3668B1752ADB3810007EE789 /* Build configuration list for PBXNativeTarget "DiscoverAydin" */;
+			buildPhases = (
+				3668B1632ADB380F007EE789 /* Sources */,
+				3668B1642ADB380F007EE789 /* Frameworks */,
+				3668B1652ADB380F007EE789 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DiscoverAydin;
+			productName = DiscoverAydin;
+			productReference = 3668B1672ADB380F007EE789 /* DiscoverAydin.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3668B15F2ADB380F007EE789 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					3668B1662ADB380F007EE789 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 3668B1622ADB380F007EE789 /* Build configuration list for PBXProject "DiscoverAydin" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3668B15E2ADB380F007EE789;
+			productRefGroup = 3668B1682ADB380F007EE789 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3668B1662ADB380F007EE789 /* DiscoverAydin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3668B1652ADB380F007EE789 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3668B1722ADB3810007EE789 /* Preview Assets.xcassets in Resources */,
+				3668B16F2ADB3810007EE789 /* Assets.xcassets in Resources */,
+				3668B17D2ADB423C007EE789 /* landmarkData.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3668B1632ADB380F007EE789 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3668B16D2ADB380F007EE789 /* ContentView.swift in Sources */,
+				3668B1862ADB440F007EE789 /* LandMarkRow.swift in Sources */,
+				3668B17F2ADB4257007EE789 /* LandMark.swift in Sources */,
+				3668B1882ADB44C5007EE789 /* LandMarkList.swift in Sources */,
+				3668B18A2ADB4550007EE789 /* LandMarkDetail.swift in Sources */,
+				3668B17B2ADB3A83007EE789 /* MapView.swift in Sources */,
+				3668B16B2ADB380F007EE789 /* DiscoverAydinApp.swift in Sources */,
+				3668B1792ADB3A14007EE789 /* CircleImage.swift in Sources */,
+				3668B1812ADB4370007EE789 /* ModelData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3668B1732ADB3810007EE789 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3668B1742ADB3810007EE789 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3668B1762ADB3810007EE789 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DiscoverAydin/Preview Content\"";
+				DEVELOPMENT_TEAM = PUJK256TL3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = oguzgkas.DiscoverAydin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3668B1772ADB3810007EE789 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DiscoverAydin/Preview Content\"";
+				DEVELOPMENT_TEAM = PUJK256TL3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = oguzgkas.DiscoverAydin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3668B1622ADB380F007EE789 /* Build configuration list for PBXProject "DiscoverAydin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3668B1732ADB3810007EE789 /* Debug */,
+				3668B1742ADB3810007EE789 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3668B1752ADB3810007EE789 /* Build configuration list for PBXNativeTarget "DiscoverAydin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3668B1762ADB3810007EE789 /* Debug */,
+				3668B1772ADB3810007EE789 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3668B15F2ADB380F007EE789 /* Project object */;
+}

@@ -1,0 +1,146 @@
+[
+    {
+        "name": "Kadınlar Denizi",
+        "category": "Beach",
+        "city": "Kuşadası",
+        "state": "Aydın",
+        "id": 1001,
+        "isFeatured": true,
+        "isFavorite": true,
+        "park": "Kuşadası",
+        "coordinates": {
+            "longitude": 37.84501026005287,
+            "latitude": 27.242905741521167
+        },
+        "description": "Mavi bayrakli Kadinlar Denizi’nin sehir merkezinde olmamasi sebebi ile eskiden sadece kadinlar tarafindan kullanildigini ve isminin buradan geldigini,Kusadasi merkeze 3km. uzaklikta, yol boyunca palmiyelerin siralandigi Kadinlar Denizi’nin çok eski dönemlerden bu yana Ege’nin en popüler plajlarindan biri oldugunu ve dünyaca üne sahip olduğunu,Mitolojide Ulyses’in Troia’ya ulasmaya çalisirken sirenlerin çagrisina dayanamayan gemicilerin karaya sürüklendikleri yerin bazi arastirmacilara göre Kadinlar Denizi oldugunu, Biliyor Musunuz?",
+        "imageName": "kadinlardenizi"
+    },
+    {
+        "name": "Didim",
+        "category": "City",
+        "city": "Didim",
+        "state": "Aydın",
+        "id": 1002,
+        "isFeatured": false,
+        "isFavorite": false,
+        "park": "Didim",
+        "coordinates": {
+            "longitude": 37.35612172717095,
+            "latitude": 27.277820883724303
+        },
+        "description": "Didim ya da eski ismiyle Yenihisar, Aydın'ın turistik bir ilçesidir. Doğuda Muğla il sınırı, Güllük Körfezi ve Akbük Koyu, batıda ve güneyde Ege Denizi, kuzeyde Bafa Gölü ve Büyük Menderes ile sınırlanmış bir yarımada şeklindedir. Yüzölçümü 402 km²'dir. 2022 yılı nüfus sayımı sonuçlarına[2] göre 97.000 kişinin yaşadığı ilçede 16 mahalle bulunmaktadır.",
+        "imageName": "didim"
+    },
+    {
+        "name": "Güzelçamlı",
+        "category": "National Park",
+        "city": "Kuşadası",
+        "state": "Aydın",
+        "id": 1003,
+        "isFeatured": false,
+        "isFavorite": true,
+        "park": "Güzelçamlı Milli Parkı",
+        "coordinates": {
+            "longitude": 37.7235290461197,
+            "latitude": 27.235531972479254
+        },
+        "description": "Dilek Yarımadası - Büyük Menderes Deltası Millî Parkı, Aydın il sınırları içinde Dilek Dağı'nın Ege Denizi'ne uzandığı son noktada yer alan millî park. 27.675 hektarlık bir alana sahiptir. Bu alanın 10.985 hektarı 19.05.1966 yılında Millî Park ilan edilen Dilek Yarımadasına, 16.690 hektarı 1994 yılında Millî Park ilan edilen Büyük Menderes Deltasına aittir.Karşısında Yunanistan'a ait Ege adalarından Sisam adası bulunan Millî Parkın Dilek Yarımadası bölümü, Samsun Dağları'nın Ege Denizi'ne doğru uzanan son noktasıdır. Jeolojik yapısı; Paleozoik şistler, Mezozoik kalkerler ve mermerler ile Neojen tortul kütlelerden meydana gelmiştir. Yarımadanın morfolojik yapısı içinde birçok tepe, vadi, kanyon ve koy bulunur. Ortalama 650 m yüksekliğe sahip yarımadanın en yüksek yeri Millî Parkın adını aldığı Dilek Tepe'dir (Mykale) ve 1237 m yüksekliğindedir. Millî Park adını bu tepeden almaktadır. Ayrıca kumlu, killi, yatık ve yüksek kıyı şekillerini içeren plajlarıyla ilgi çekici kıyı özelliklerine sahiptir.",
+        "imageName": "güzelcamli"
+    },
+    {
+        "name": "Kuşadası",
+        "category": "City",
+        "city": "Kuşadası",
+        "state": "Aydın",
+        "id": 1004,
+        "isFeatured": true,
+        "isFavorite": true,
+        "park": "Kuşadası",
+        "coordinates": {
+            "longitude": 37.85298398779212,
+            "latitude": 27.251885830629934
+        },
+        "description": "Kuşadası Türkiye'nin Aydın ilinin bir ilçesidir. İlçenin kuzeyinde İzmir ilinin Selçuk ilçesi, doğusunda ve güneyinde Söke ilçesi, batısında Ege Denizi bulunmaktadır. İlçede turizm gelişmiştir. 2022 yılı nüfus sayımı sonuçlarına göre ilçede 130.835 kişi yaşamaktadır.",
+        "imageName": "kusadasi"
+    },
+    {
+        "name": "Arapapıştı Kanyonu",
+        "category": "Canyon",
+        "city": "Bozdoğan",
+        "state": "Aydın",
+        "id": 1005,
+        "isFeatured": false,
+        "isFavorite": false,
+        "park": "Kemer",
+        "coordinates": {
+            "longitude": 37.54359507469349,
+            "latitude": 28.540833349090537
+        },
+        "description": "Arapapıştı Kanyonu Aydın'ın Bozdoğan ilçesinde bulunan Kemer Barajı'nı besleyen Akçay nehrinin oluşturduğu kanyondur. Kanyonun uzunluğu 6 kilometre olup yüksekliği 380 metredir. Kanyonun bir bölümü Aydın, Denizli ve Muğla illerinin sınırında yer almaktadır. 2017 yılında Aydın Büyükşehir Belediyesi tarafından turizme açılmıştır.",
+        "imageName": "arapapisti"
+    },
+    {
+        "name": "Milet Antik Kenti",
+        "category": "Ancient City",
+        "city": "Didim",
+        "state": "Aydın",
+        "id": 1006,
+        "isFeatured": false,
+        "isFavorite": false,
+        "park": "Balat",
+        "coordinates": {
+            "longitude": 37.52595971165911,
+            "latitude": 27.27603720544282
+        },
+        "description": "Milet (Klasik Yunanca: Μίλητος, Milētos ve Latince Miletus Hititçe: Millawanda) Anadolu'nun batısında, Ege bölgesinde (klasik adı Meander olan) Büyük Menderes Nehrinin hemen ağzına yakın deniz kıyısında bir antik liman şehridir. Şimdi Aydın'in Didim İlçesi'nde Akkoy'un 5 km. kuzeyinde ve Balat köyü yakınında bir harabe halinde olup limanı Büyük Menderes tarafından doldurulduğu için yaklaşık 10 km denizden içeride bir mevkidedir.",
+        "imageName": "milet"
+    },
+    {
+        "name": "Nysia Antik Kenti",
+        "category": "Ancient City",
+        "city": "Sultanhisar",
+        "state": "Aydın",
+        "id": 1007,
+        "isFeatured": true,
+        "isFavorite": false,
+        "park": "Eskihisar",
+        "coordinates": {
+            "longitude": 37.90359315183624,
+            "latitude": 28.14530972546213
+        },
+        "description": "Karia kentlerindendir. Antik kentin kuruluşu ile ilgili farklı bilgiler bulunmaktadır. Antik dönem tarihçisi ‘Stephanus’ MÖ 3. yüzyılda Seleukos’un oğlu I. Antiokhos Soter tarafından eşi adına şehri kurdurduğu bazı kaynaklarda göstersede,Kent ile ilgili en önemli bilgileri yaşamının büyük bölümünü Nysa'da geçiren ünlü Coğrafyacı Strabon'dan almaktadır. Strabon devrin en önemli eğitim merkezlerinden biri Nysa'da eğitim görmüştür. Kent özellikle Roma İmparatorluk egemenliği altındayken kültürel alanda önemli bir noktaya ulaşmıştır.",
+        "imageName": "nysia"
+    },
+    {
+        "name": "Tralleis Antik Kenti",
+        "category": "Ancient City",
+        "city": "Efeler",
+        "state": "Aydın",
+        "id": 1008,
+        "isFeatured": false,
+        "isFavorite": false,
+        "park": "Kalfaköy",
+        "coordinates": {
+            "longitude": 37.858736468993015,
+            "latitude": 27.833023813814695
+        },
+        "description": "Tralleis antik kenti Aydın ilinin kuzeyinde, Kestane Dağı'nın (Mesogis) güney yamacındaki geniş ve yüksek plato üzerinde konumlanır. Antik metinlerde Menderes Nehri veya Mesogis Dağı'nın sınır kabul edilmesi kentin bazen Karia, bazen de Lidya Bölgesi içinde gösterilmesine neden olmuştur. Strabon, Magnesia'dan gelerek Tralleis'e ulaşan antik yolun solunda Mesogis Dağı'nın, sağında ise Maiandros Irmağı Ovası'nın bulunduğunu ve kentin etrafı korunmuş yaşayan halkın Anadolu'daki diğer kentler kadar zengin bir halk tarafından iskan edildiğini ve kentte yaşayan bazı kişilerin başka eyaletlerde önemli mevkilere geldiğini söyler.",
+        "imageName": "tralleis"
+    },
+    {
+        "name": "Zeus Mağarası",
+        "category": "Cave",
+        "city": "Güzelçamlı",
+        "state": "Aydın",
+        "id": 1009,
+        "isFeatured": false,
+        "isFavorite": false,
+        "park": "Güzelçamlı Milli Parkı",
+        "coordinates": {
+            "longitude": 37.71149721254007,
+            "latitude": 27.215731152441013
+        },
+        "description": "Mağara, Kuşadası ilçesi Güzelçamlı beldesinin hemen batısında, Dilek Yarımadası-Büyük Menderes Deltası Milli Parkı içindedir. 200 metre rakımda Dilek Yarımadası'ndaki milli park girişinin batısında yer almaktadır. Mağaraya 20 metre uzunluğunda güneye doğru uzun kaygan, taşlı patika ile ulaşılır. Mağaranın ağzı ağaçlar, bitkiler ve çiçeklerle kaplı olduğu için görünmez. Mağaraya, Kuşadası ilçe merkezinden, Güzelçamlı'ya düzenli olarak çift yönlü sefer yapan dolmuşlarla ulaşılabilir. Mağara, düdende bir ile kalk oluşumunu aşındıran yeraltı nehri sonucu oluşmuştur. Tabanı havuz şeklindedir. Mağaranın mavi-yeşil renkli karbonatlı maden suyu, dağdan gelen kaynak suyu ile tuzlu deniz suyunun acı bir karışımıdır. Derin havuz, yüzmek ve yıkanmak için yıl boyunca yerli ve yabancı ziyaretçilerin ilgisini çekmektedir. Mağara 10-15 metre derinliğinde ve 10-13 metre genişliğinde ve 20 metre uzunluğundadır. Antik Yunan mitolojisine göre, göklerin Olimposlu hükümdarı Zeus, Zeus'un onu kızdırmasından sonra denizlerin hakimi olan kardeşi Poseidon'un gazabından kaçmak için mağaraya saklanırdı. Poseidon, gazabıyla, 3 başlı mızrağıyla çok yüksek dalgaları ve diğer tehlikeli su koşullarını serbest bırakacaktı.[2] Ziyaretçiler, popüler bir alışkanlık olarak, dileklerinin gerçekleşmesi ümidiyle mağaranın ağzının yanındaki bir dilek ağacına bir bez parçası bağlarlar.",
+        "imageName": "zeus"
+    }
+]
